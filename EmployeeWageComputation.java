@@ -6,6 +6,7 @@ public class EmployeeWageComputation {
 	
 	static int wagePerHour = 20;
 	static int fullDayHour =8;
+	static int partTimeHour = 8;
 
 	public static void main(String[] args) {
 
@@ -30,6 +31,11 @@ public class EmployeeWageComputation {
 		
 		dailyWage = fullDayHour * wagePerHour;
 		System.out.println("Daily wage of Employee is " + dailyWage);
+		
+		// Employee Part Time
+		
+		dailyWage = partTimeHour * wagePerHour;
+		System.out.println("Employee is Part Time ");
 	}
 
 }
